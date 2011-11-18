@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110571431474E28600E481A8 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 110571421474E28600E481A8 /* JSONKit.m */; };
+		110571461474FCA600E481A8 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 110571451474FCA600E481A8 /* test.jpg */; };
+		11F6956B14658C370094825C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F6956A14658C370094825C /* UIKit.framework */; };
+		11F6956D14658C370094825C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F6956C14658C370094825C /* Foundation.framework */; };
+		11F6956F14658C370094825C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F6956E14658C370094825C /* CoreGraphics.framework */; };
+		11F6957514658C370094825C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11F6957314658C370094825C /* InfoPlist.strings */; };
+		11F6957714658C370094825C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6957614658C370094825C /* main.m */; };
+		11F6957B14658C370094825C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6957A14658C370094825C /* AppDelegate.m */; };
+		11F6957E14658C370094825C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6957D14658C370094825C /* ViewController.m */; };
+		11F6958114658C370094825C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F6957F14658C370094825C /* ViewController.xib */; };
+		11F6958A146593670094825C /* vkLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F69589146593670094825C /* vkLoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110571411474E28600E481A8 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		110571421474E28600E481A8 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		110571451474FCA600E481A8 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		11F6956614658C370094825C /* VKAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F6956A14658C370094825C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11F6956C14658C370094825C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11F6956E14658C370094825C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11F6957214658C370094825C /* VKAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VKAPI-Info.plist"; sourceTree = "<group>"; };
+		11F6957414658C370094825C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11F6957614658C370094825C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11F6957814658C370094825C /* VKAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VKAPI-Prefix.pch"; sourceTree = "<group>"; };
+		11F6957914658C370094825C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11F6957A14658C370094825C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11F6957C14658C370094825C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11F6957D14658C370094825C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11F6958014658C370094825C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		11F69588146593670094825C /* vkLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vkLoginViewController.h; sourceTree = "<group>"; };
+		11F69589146593670094825C /* vkLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vkLoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F6956314658C370094825C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F6956B14658C370094825C /* UIKit.framework in Frameworks */,
+				11F6956D14658C370094825C /* Foundation.framework in Frameworks */,
+				11F6956F14658C370094825C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F6955B14658C360094825C = {
+			isa = PBXGroup;
+			children = (
+				11F6957014658C370094825C /* VKAPI */,
+				11F6956914658C370094825C /* Frameworks */,
+				11F6956714658C370094825C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11F6956714658C370094825C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F6956614658C370094825C /* VKAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F6956914658C370094825C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F6956A14658C370094825C /* UIKit.framework */,
+				11F6956C14658C370094825C /* Foundation.framework */,
+				11F6956E14658C370094825C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11F6957014658C370094825C /* VKAPI */ = {
+			isa = PBXGroup;
+			children = (
+				110571451474FCA600E481A8 /* test.jpg */,
+				11F6958714658C9C0094825C /* VKAPI */,
+				11F6957914658C370094825C /* AppDelegate.h */,
+				11F6957A14658C370094825C /* AppDelegate.m */,
+				11F6957C14658C370094825C /* ViewController.h */,
+				11F6957D14658C370094825C /* ViewController.m */,
+				11F6957F14658C370094825C /* ViewController.xib */,
+				11F6957114658C370094825C /* Supporting Files */,
+			);
+			path = VKAPI;
+			sourceTree = "<group>";
+		};
+		11F6957114658C370094825C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F6957214658C370094825C /* VKAPI-Info.plist */,
+				11F6957314658C370094825C /* InfoPlist.strings */,
+				11F6957614658C370094825C /* main.m */,
+				11F6957814658C370094825C /* VKAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11F6958714658C9C0094825C /* VKAPI */ = {
+			isa = PBXGroup;
+			children = (
+				110571411474E28600E481A8 /* JSONKit.h */,
+				110571421474E28600E481A8 /* JSONKit.m */,
+				11F69588146593670094825C /* vkLoginViewController.h */,
+				11F69589146593670094825C /* vkLoginViewController.m */,
+			);
+			name = VKAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F6956514658C370094825C /* VKAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F6958414658C370094825C /* Build configuration list for PBXNativeTarget "VKAPI" */;
+			buildPhases = (
+				11F6956214658C370094825C /* Sources */,
+				11F6956314658C370094825C /* Frameworks */,
+				11F6956414658C370094825C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKAPI;
+			productName = VKAPI;
+			productReference = 11F6956614658C370094825C /* VKAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11F6955D14658C360094825C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 11F6956014658C360094825C /* Build configuration list for PBXProject "VKAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11F6955B14658C360094825C;
+			productRefGroup = 11F6956714658C370094825C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11F6956514658C370094825C /* VKAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F6956414658C370094825C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F6957514658C370094825C /* InfoPlist.strings in Resources */,
+				11F6958114658C370094825C /* ViewController.xib in Resources */,
+				110571461474FCA600E481A8 /* test.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F6956214658C370094825C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F6957714658C370094825C /* main.m in Sources */,
+				11F6957B14658C370094825C /* AppDelegate.m in Sources */,
+				11F6957E14658C370094825C /* ViewController.m in Sources */,
+				11F6958A146593670094825C /* vkLoginViewController.m in Sources */,
+				110571431474E28600E481A8 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11F6957314658C370094825C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F6957414658C370094825C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11F6957F14658C370094825C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F6958014658C370094825C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11F6958214658C370094825C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Maiorov (5BPX6U9E9G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PROVISIONING_PROFILE = "79499853-68C6-4F24-BFA0-11B0FBEE1DE7";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11F6958314658C370094825C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11F6958514658C370094825C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKAPI/VKAPI-Prefix.pch";
+				INFOPLIST_FILE = "VKAPI/VKAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11F6958614658C370094825C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKAPI/VKAPI-Prefix.pch";
+				INFOPLIST_FILE = "VKAPI/VKAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F6956014658C360094825C /* Build configuration list for PBXProject "VKAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F6958214658C370094825C /* Debug */,
+				11F6958314658C370094825C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F6958414658C370094825C /* Build configuration list for PBXNativeTarget "VKAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F6958514658C370094825C /* Debug */,
+				11F6958614658C370094825C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11F6955D14658C360094825C /* Project object */;
+}
